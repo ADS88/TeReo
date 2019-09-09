@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+
+    tools:context="com.android.example.tereomaori.InformationActivity">
+
+    <TextView
+        android:background="@color/category_family"
+        style="@style/CategoryStyle"
+        android:text="Andrew Sturman 2019"/>
+
+    <TextView
+        android:background="@color/category_numbers"
+        style="@style/CategoryStyle"
+        android:text="Images from emojione"/>
+
+    <TextView
+        android:background="@color/category_colors"
+        style="@style/CategoryStyle"
+        android:text="Sound from MaoriDictionary"/>
+    <TextView
+        android:background="@color/category_phrases"
+        style="@style/CategoryStyle"
+        android:text="Based on a Udacity tutorial"/>
+
+</LinearLayout>
